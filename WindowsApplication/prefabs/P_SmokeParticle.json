@@ -1,24 +1,25 @@
 {
-    "Name": "P_BlobParticle",
+    "Name": "P_SmokeParticle",
     "Prefab": [
         {
             "_isActive": true,
             "_isPrefab": false,
             "children": [
-                111
+                94,
+                95
             ],
             "components": [
                 {
                     "_isActive": true,
                     "_isCollapsed": false,
-                    "id": 434,
+                    "id": 385,
                     "rotation": 0.0,
                     "type": "Transform",
                     "xOrigin": 0.0,
-                    "xPos": 20.48833465576172,
+                    "xPos": 0.0,
                     "xScale": 1.0,
                     "yOrigin": 0.0,
-                    "yPos": -6.581185340881348,
+                    "yPos": 0.0,
                     "yScale": 1.0
                 },
                 {
@@ -30,14 +31,14 @@
                     "equilibriumForce": 2.0,
                     "friction": 0.8600000143051147,
                     "gravity": 0.0,
-                    "id": 435,
+                    "id": 386,
                     "mass": 1.0,
                     "terminalVelocity": 0.4000000059604645,
                     "type": "RigidBody",
                     "windResistance": 1.0
                 }
             ],
-            "id": 110,
+            "id": 93,
             "ignoreTags": {
                 "Enemy": true,
                 "EnemyDamage": true,
@@ -56,11 +57,11 @@
                 "Terrain": true,
                 "TerrainTrigger": false
             },
-            "name": "P_BlobParticle",
+            "name": "P_SmokeParticle",
             "parent": -1,
             "prefabName": "",
-            "spawnLocationX": 20.48833465576172,
-            "spawnLocationY": -6.581185340881348,
+            "spawnLocationX": 0.0,
+            "spawnLocationY": 0.0,
             "tags": {
                 "Enemy": false,
                 "EnemyDamage": false,
@@ -88,37 +89,37 @@
                 {
                     "_isActive": true,
                     "_isCollapsed": false,
-                    "id": 430,
+                    "id": 379,
                     "rotation": 0.0,
                     "type": "Transform",
-                    "xOrigin": 20.48833465576172,
+                    "xOrigin": 0.0,
                     "xPos": 0.0,
-                    "xScale": 0.3764946460723877,
-                    "yOrigin": -6.581185340881348,
+                    "xScale": 0.019999999552965164,
+                    "yOrigin": 0.0,
                     "yPos": 0.0,
-                    "yScale": 0.3764946460723877
+                    "yScale": 0.019999999552965164
                 },
                 {
                     "_isActive": true,
                     "_isCollapsed": false,
-                    "id": 431,
-                    "path": "C:\\Users\\Dillon Kyle\\source\\repos\\FlatEngine\\WindowsApplication\\assets\\images\\Sprites\\Player\\blob.png",
+                    "id": 380,
+                    "path": "C:\\Users\\Dillon Kyle\\Desktop\\Assets\\Game Dev\\Smokes\\SmokeFill1.png",
                     "pivotPoint": "Center",
                     "renderOrder": 3,
                     "tintColorW": 0.29062747955322266,
-                    "tintColorX": 1.0,
-                    "tintColorY": 1.0,
+                    "tintColorX": 0.7352938652038574,
+                    "tintColorY": 0.0,
                     "tintColorZ": 1.0,
                     "type": "Sprite",
-                    "xOffset": 5.0,
+                    "xOffset": 300.0,
                     "xScale": 1.0,
-                    "yOffset": 5.0,
+                    "yOffset": 300.0,
                     "yScale": 1.0
                 },
                 {
                     "_isActive": true,
                     "_isCollapsed": false,
-                    "id": 432,
+                    "id": 381,
                     "path": "C:\\Users\\Dillon Kyle\\source\\repos\\FlatEngine\\WindowsApplication\\animations\\A_BlobParticle.json",
                     "type": "Animation"
                 },
@@ -126,11 +127,11 @@
                     "_isActive": true,
                     "_isCollapsed": false,
                     "attachedScript": "BlobParticle",
-                    "id": 433,
+                    "id": 382,
                     "type": "Script"
                 }
             ],
-            "id": 111,
+            "id": 94,
             "ignoreTags": {
                 "Enemy": false,
                 "EnemyDamage": false,
@@ -150,7 +151,86 @@
                 "TerrainTrigger": false
             },
             "name": "BlobAnim",
-            "parent": 110,
+            "parent": 93,
+            "prefabName": "",
+            "spawnLocationX": 0.0,
+            "spawnLocationY": 0.0,
+            "tags": {
+                "Enemy": false,
+                "EnemyDamage": false,
+                "EnemyTrigger": false,
+                "EnvironmentalDamage": false,
+                "EnvironmentalTrigger": false,
+                "InteractableItem": false,
+                "InteractableObject": false,
+                "Item": false,
+                "Npc": false,
+                "NpcTrigger": false,
+                "Player": false,
+                "PlayerDamage": false,
+                "PlayerTrigger": false,
+                "Projectile": false,
+                "Terrain": false,
+                "TerrainTrigger": false
+            }
+        },
+        {
+            "_isActive": true,
+            "_isPrefab": false,
+            "children": [],
+            "components": [
+                {
+                    "_isActive": true,
+                    "_isCollapsed": false,
+                    "id": 383,
+                    "rotation": 0.0,
+                    "type": "Transform",
+                    "xOrigin": 0.0,
+                    "xPos": 0.0,
+                    "xScale": 0.019999999552965164,
+                    "yOrigin": 0.0,
+                    "yPos": 0.0,
+                    "yScale": 0.019999999552965164
+                },
+                {
+                    "_isActive": true,
+                    "_isCollapsed": false,
+                    "id": 384,
+                    "path": "C:\\Users\\Dillon Kyle\\Desktop\\Assets\\Game Dev\\Smokes\\SmokeOutline1.png",
+                    "pivotPoint": "Center",
+                    "renderOrder": 0,
+                    "tintColorW": 1.0,
+                    "tintColorX": 0.7941174507141113,
+                    "tintColorY": 0.0,
+                    "tintColorZ": 1.0,
+                    "type": "Sprite",
+                    "xOffset": 300.0,
+                    "xScale": 1.0,
+                    "yOffset": 300.0,
+                    "yScale": 1.0
+                }
+            ],
+            "id": 95,
+            "ignoreTags": {
+                "Enemy": false,
+                "EnemyDamage": false,
+                "EnemyTrigger": false,
+                "EnvironmentalDamage": false,
+                "EnvironmentalTrigger": false,
+                "InteractableItem": false,
+                "InteractableObject": false,
+                "Item": false,
+                "Npc": false,
+                "NpcTrigger": false,
+                "Player": false,
+                "PlayerDamage": false,
+                "PlayerTrigger": false,
+                "Projectile": false,
+                "Terrain": false,
+                "TerrainTrigger": false
+            },
+            "name": "SmokeOutline",
+            "parent": 93,
             "prefabName": "",
             "spawnLocationX": 0.0,
             "spawnLocationY": 0.0,

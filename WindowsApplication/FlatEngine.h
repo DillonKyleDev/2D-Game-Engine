@@ -72,6 +72,7 @@ namespace FlatEngine
 	extern std::shared_ptr<Animation::S_AnimationProperties> GetFocusedAnimation();
 	// Global Animation Event Functions
 	extern void DestroySelf(std::shared_ptr<FlatEngine::GameObject> thisObject);
+	extern void DestroySelfAndParent(std::shared_ptr<FlatEngine::GameObject> thisObject);
 
 	// Managers
 	extern std::shared_ptr<GameManager> gameManager;

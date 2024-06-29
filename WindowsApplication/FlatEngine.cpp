@@ -302,6 +302,11 @@ namespace FlatEngine
 	{
 		FlatEngine::DeleteGameObject(thisObject->GetID());
 	}
+
+	void DestroySelfAndParent(std::shared_ptr<FlatEngine::GameObject> thisObject)
+	{
+		FlatEngine::DeleteGameObject(thisObject->GetParentID());
+	}
 	
 	// Project Management
 	void OpenProject(std::string path)

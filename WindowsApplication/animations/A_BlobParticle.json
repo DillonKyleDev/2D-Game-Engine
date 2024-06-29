@@ -8,8 +8,8 @@
         {
             "Frames": [
                 {
-                    "functionName": "DestroySelf",
-                    "time": 1280.0
+                    "functionName": "DestroySelfAndParent",
+                    "time": 1420.0
                 }
             ],
             "Property": "Event"
@@ -18,7 +18,7 @@
             "Frames": [
                 {
                     "functionName": "",
-                    "time": 1400.0
+                    "time": 1500.0
                 }
             ],
             "Property": "Event"
@@ -92,7 +92,7 @@
                 {
                     "scaleInterpType": 0,
                     "scaleSpeed": 0.10000000149011612,
-                    "time": 1560.0,
+                    "time": 1380.0,
                     "transformInterpType": 0,
                     "transformSpeed": 0.10000000149011612,
                     "xMove": 0.0,

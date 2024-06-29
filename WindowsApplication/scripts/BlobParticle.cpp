@@ -13,7 +13,7 @@ BlobParticle::~BlobParticle()
 
 void BlobParticle::Start()
 {
-	GetOwner()->GetAnimationComponent()->AddEventFunction("DestroySelf", FlatEngine::DestroySelf);
+	GetOwner()->GetAnimationComponent()->AddEventFunction("DestroySelfAndParent", FlatEngine::DestroySelfAndParent);
 }
 
 void BlobParticle::Update(float deltaTime)
